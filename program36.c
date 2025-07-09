@@ -1,4 +1,6 @@
 # include<stdio.h>
+# include<stdbool.h>
+
 int main(){
    int i,n,arr[n];
    printf("HOW MANY NO. YOU WANT TO WRITE:\n");
