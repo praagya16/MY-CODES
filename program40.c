@@ -1,11 +1,12 @@
 # include<stdio.h>
 int main(){
-    int i,n,j,k=5;
+    int i,n,j,k;
     printf("Enter a number:");
     scanf("%d",&n);
-    for(i=1;i<=n;i++,k--){
-        for(j=i;j>0;j++){
-            printf("%d ",k);
-        }
+    for(i=n;i<=n;i--){
+       for(j=1;j<=i;j++){
+        printf("%d",i);
+       }
+       printf("\n");
     }
 }
